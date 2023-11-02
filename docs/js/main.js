@@ -1,6 +1,6 @@
 // Para obtener la info del JSON
 async function obtenerDatos() {
-    let respuesta = await fetch("./JS/profilepic.json");
+    let respuesta = await fetch("./js/profilepic.json");
     let datos = await respuesta.json();
   
     // Obtener el elemento de la imagen del perfil

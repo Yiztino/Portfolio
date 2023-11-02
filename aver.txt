@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portafolio de Yiztino">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Yiztino</title>
+    <link rel="icon" href="./img/iconos/GreenYLR.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,600&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link id="css-theme" rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+    <!--header-->
+   
+        <div class="top-header"></div> <!--navigation col-2-->
+        <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-md-3 pb-md-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/iconos/GreenYLR.jpg" class="text-left navbar-img" alt="Logo de Yiztino" >
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#acerca">Acerca de mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#videojuegos">Mis videojuegos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#otros">Otros proyectos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin de navbar y ahora el banner-->
+        <section class="banner">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <img src="img/me/YiztinoBannerW.webp" alt="Banner de Yiztino" class="img-fluid">
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- fin banner y ahroa fin header-->
+    </header>
+    <!-- main-->
+    <main class="container">
+      <!-- inicio -->
+      <section id="inicio" class="inicio py-5">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                     <img src="img/me/YO.jpg" class="img-fluid" alt="yo">
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                      <p id="mainTitle" class="text-body-emphasis tit ">
+                        Yiztino es un desarrollador de videojuegos amante de la filosofía y de aprender nuevas cosas
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- Sección acerca de mi-->
+      <section id="acerca" class="acerca py-5">
+          <div class="container">
+              <h2 class="text-center">Acerca de mí</h2>
+              <div class="row py-5">
+                  <div class="col-lg-6 col-md-6 col-sm-6">
+                      <p>
+                        También conocido por mi nombre real Luis Lemus, soy un desarrollador de software interactivo y videojuegos que le apasiona hacer videojuegos y código que pueda transmitir mis ideas o pueda ser útil para alguien. Algunos motores de creación de juegos que disfruto usar son Unity, Unreal Engine y Godot. Sé programar en C##, C++, lua, javascript, php y html. También uso markdown. :D
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!--Mis videojuegos-->
+      <section id="videojuegos" class="py-5 px-3">
+        <div class="container">
+            <h2 class="text-center py-5">Mis videojuegos</h2>
+            <div class="row py-5">
+                <div class="col-lg-5 col-md-4 col-sm-12">
+                  <img src="./img/proyectos/PaginaItchio.png" class="card-img-top container" alt="PaginaItchio">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Página en Itch.io</h5>
+                        <p class="card-text text-center">Ve la página de itch.io donde tengo todos los juegos que he hecho</p>
+                        <a href="https://yiztino.itch.io/" class="btn btn-primary container" target="_blank">Ver Página</a>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-12">
+                  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXxxgYRp8yMguil1C3WnmF8%2FFriend%25C2%25B4s-Night%3Ftype%3Ddesign%26node-id%3D292-2%26t%3DA0J7YyuO7qFAAgAu-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1%26starting-point-node-id%3D255%253A2%26mode%3Ddesign" allowfullscreen></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Página en Itch.io</h5>
+                        <p class="card-text text-center">Ve la página de itch.io donde tengo todos los juegos que he hecho</p>
+                        <a href="https://yiztino.itch.io/" class="btn btn-primary container" target="_blank">Ver Página</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- Otros proyectos-->
+      <!--Mis videojuegos-->
+      <section id="otros" class="py-5 px-3">
+        <div class="container">
+            <h2 class="text-center py-5">Otros proyectos</h2>
+            <div class="row py-5">
+                <div class="col-lg-5 col-md-4 col-sm-12">
+                  <img src="./img/proyectos/PaginaItchio.png" class="card-img-top container" alt="PaginaItchio">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Página en Itch.io</h5>
+                        <p class="card-text text-center">Ve la página de itch.io donde tengo todos los juegos que he hecho</p>
+                        <a href="https://yiztino.itch.io/" class="btn btn-primary container" target="_blank">Ver Página</a>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-12">
+                  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="400" height="225" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXxxgYRp8yMguil1C3WnmF8%2FFriend%25C2%25B4s-Night%3Ftype%3Ddesign%26node-id%3D292-2%26t%3DA0J7YyuO7qFAAgAu-1%26scaling%3Dmin-zoom%26page-id%3D0%253A1%26starting-point-node-id%3D255%253A2%26mode%3Ddesign" allowfullscreen></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Página en Itch.io</h5>
+                        <p class="card-text text-center">Ve la página de itch.io donde tengo todos los juegos que he hecho</p>
+                        <a href="https://yiztino.itch.io/" class="btn btn-primary container" target="_blank">Ver Página</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    </main>
+    <!-- footer-->
+    <footer id="footer">
+      <div id="footer-container">
+        <div class="footer-column">
+          <div class="title">
+            ABOUT
+          </div>
+          <div id="avatar" class="avatar">
+            <img id="profile-image" src="" alt="Profile Picture"  class="img-fluid img-thumbnail profile-img">
+          </div>
+          <div class="text-center p-0 bg-dark text-white py-3">
+            " Yiztino es un freelancer que vive en México. Hace algunos trabajos de programación y 
+            desarrolla videojuegos tanto como directo de equipo como programador. Se especializa en
+            el desarrollo de videojuegos en la parte de gestión de proyecto y game design, aunque 
+            también puede hacer páginas web y trabajar con componentes como Arduino "
+          </div>
+        </div>
+      </div>
+      <p class="text-center mt-4">
+        <small>&copy; Yiztino 2023</small>
+      </p>
+
+      <button id="scrollToTop" class="btn btn-secondary">Volver hacia arriba</button>
+    </footer>
+    
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+    ></script>
+    <script src="./js/scrollToTop.js"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
