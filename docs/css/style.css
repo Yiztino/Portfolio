@@ -85,20 +85,21 @@ a:hover {
   background-color: #7AE694;
  
 }
-
+.project-card {
+    margin-bottom: 2rem; 
+}
 #mainTitle{
   color: #074713;
   font-size: xx-large;
 }
 
 #footer{
-  background-color: #C5C78F;
-  color:#5F611F;
+    /*#7D9188
+    */
+  background-color: #4F665C ;
+  color:#E69D7A;
 }
 
-.color-adoc{
-  color: #59582F;
-}
 .navbar-img{
     height: 2rem;
     width: 2rem;
@@ -134,4 +135,17 @@ a:hover {
     max-width: 1536px;
     margin: 0 auto;
     overflow: hidden;
+}
+#btnInsta{
+    background-color: #FE6D44;
+
+}
+#btnTwitter{
+    background-color: #00A3D5;
+}
+#btnYoutube{
+    background-color: red;
+}
+#btnTikTok{
+    background-color: black;
 }
